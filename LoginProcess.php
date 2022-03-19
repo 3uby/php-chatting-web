@@ -45,7 +45,7 @@ if ($password == $passwordResult) {
     // 로그인 성공
     // 세션에 id 저장
     session_start();
-    $_SESSION['userId'] = $row['user_id'];
+    $_SESSION['userId'] = $id;
     print_r($_SESSION);
     echo $_SESSION['userId'];
     
@@ -60,6 +60,7 @@ if ($password == $passwordResult) {
 ?>
     <script>
         alert("로그인에 실패하였습니다");
+        location.href = "Login.php";
     </script>
 <?php
 }

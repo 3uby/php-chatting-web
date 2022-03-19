@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:visited{
+    color : black;
+}
+a:hover{
+    color : pink;
+}
+.nav{
+    display: flex;
+    background-color: lightblue;    
+    justify-content: space-between;
+}
+.nav>ul{
+    display: flex;
+}
+.nav>ul>li{
+    padding: 10px;
+}
+.userInfo{
+    display: flex;
+}
+.input{
+    position:absolute;
+    bottom: 0;
+}

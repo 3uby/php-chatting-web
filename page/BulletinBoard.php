@@ -1,0 +1,10 @@
+<html>
+    <?php
+    require_once('../view/header.php');
+    ?>
+    <h1>게시판</h1>
+    <hr>
+    <?php
+    require_once('/view/bottom.php');
+    ?>
+</html>
